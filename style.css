@@ -1,0 +1,37 @@
+.container{
+    background-color:#FFFFE0;
+    width:100vw;
+
+    
+    height: 100vh;
+   
+}
+@keyframes deb {
+   from{
+        width: 300px;
+        height: 200px;
+    }
+    to{
+        width: 700px;
+        height: 100vh;
+       
+        
+   
+    }
+    
+}
+/*
+.box{
+    background-color: blue;
+    animation-name: deb;
+    
+  
+}*/
+img{
+  
+    animation-name: deb;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
